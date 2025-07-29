@@ -28,7 +28,7 @@ def playgame():
         if (you == 1 and computer == -1) or (you == 0 and computer == 1) or (you == -1 and computer == 0):
             print("\nYay you Won")
         elif (you == 1 and computer == 0) or (you == 0 and computer == -1) or (you == -1 and computer == 1):
-            print("\nYou Lost")
+            print("\nOh no you Lost")
         else:
             print("\nSomething went wrong")
 
@@ -39,7 +39,7 @@ def rpsgame():
 
         again = input("\nDo you want to play again? (Yes/No)- ").lower()
         if again != "yes":
-            print("\nThanks for playing.Come back soon!")
+            print("Thanks for playing.Come back soon!")
             break
 
 rpsgame()
