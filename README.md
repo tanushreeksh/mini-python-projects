@@ -4,7 +4,7 @@ This repository is a growing collection of small, focused Python projects I've b
 
 # Projects so far
 
-1. Rock Paper Scissors (logic-based game using user input)
+1. Rock Paper Scissors 
 2. The Perfect Guess Game (guess-the-number with levels & attempts)
 3. Cafe Order Management
 
