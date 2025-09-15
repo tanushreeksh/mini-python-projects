@@ -6,7 +6,7 @@ This repository is a growing collection of small, focused Python projects I've b
 
 1. Rock Paper Scissors (logic-based game using user input)
 2. The Perfect Guess Game (guess-the-number with levels & attempts)
-3. Sentence Analyzer
+3. Cafe Order Management
 
 # Why I'm Doing This
 While tutorials are helpful, I believe in **active problem-solving** as the fastest way to grow as a programmer. These mini-projects are my way of:
