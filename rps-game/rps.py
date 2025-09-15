@@ -30,7 +30,7 @@ def playgame():
         elif (you == 1 and computer == 0) or (you == 0 and computer == -1) or (you == -1 and computer == 1):
             print("\nOh no you Lost")
         else:
-            print("\nSomething went wrong")
+            print("\nSomething went wrong...")
 
 
 def rpsgame():
