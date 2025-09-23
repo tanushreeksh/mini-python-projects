@@ -1,4 +1,4 @@
-**Bank Management System**
+## **Bank Management System**
 
 A simple command-line bank application built in Python.
 It uses JSON as the database to persist data between sessions, so account details are not lost when you close the program.

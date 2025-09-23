@@ -1,6 +1,6 @@
 # Perfect Guess Game
 
-A number guessing game written in Python. The program randomly selects a number between **1 and 100**, and the player must guess it within a limited number of attempts based on the chosen difficulty level.
+A number guessing game written in Python. The program randomly selects a number between **1 and 100** and the player must guess it within a limited number of attempts based on the chosen difficulty level.
 
 
 ## Features
