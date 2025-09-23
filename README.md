@@ -1,6 +1,6 @@
 # mini-python-projects
 
-This repository is a growing collection of small, focused Python projects I've been building to strengthen my core programming logic skills.
+This repository is a collection of Python focused projects I've been building to strengthen my core programming logic skills.
 
 # Projects so far
 
