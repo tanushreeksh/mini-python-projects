@@ -6,13 +6,12 @@ This repository is a growing collection of small, focused Python projects I've b
 
 1. Rock Paper Scissors 
 2. The Perfect Guess Game (guess-the-number with levels & attempts)
-<<<<<<< HEAD
-=======
 3. Cafe Order Management
->>>>>>> b1330f78f30e02540daa25e3899743ce9a1bcd25
+4. Bank Management System (JSON-based)
 
 # Why I'm Doing This
 While tutorials are helpful, I believe in **active problem-solving** as the fastest way to grow as a programmer. These mini-projects are my way of:
 - Practicing clean logic 
 - Making errors and learning from them before moving to advanced AI/ML project
+- Building a personal library of reference projects
 
