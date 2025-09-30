@@ -3,6 +3,7 @@ import webbrowser
 import random
 import multiprocessing
 import pyttsx3
+import re
 
 
 def speak_process(text):
@@ -22,24 +23,31 @@ def speak(text):
     p.join()  # wait until speaking is done
 
 
+def normalize(text):
+    """Lowercase, remove punctuation, and extra spaces."""
+    text = text.lower()
+    text = re.sub(r"[^a-z ]", "", text)     # remove anything that's not a letter or space
+    text = " ".join(text.split())           # remove extra spaces
+    return text
 
 # Command to URL mapping 
 commands = {
     "open google": "https://google.com",
     "open youtube": "https://youtube.com",
     "open linkedin": "https://linkedin.com",
-    "open spotify": "https://spotify.com",
     "open github": "https://github.com"
 }
 
 def process_command(command):
+    cmd = normalize(command)
     for key, url in commands.items():
-        if key in command:
-            site = key.split()[1].capitalize() 
-            speak(f"Opening {site}") 
-            webbrowser.open(url) 
+        if normalize(key) in cmd:           # normalize both sides
+            site_name = key.split()[1].capitalize()
+            speak(f"Opening {site_name}")
+            webbrowser.open(url)
             return
     speak("Sorry, I don't know that command.")
+
 
 
 
