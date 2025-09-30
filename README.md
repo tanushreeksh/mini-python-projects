@@ -10,7 +10,7 @@ This repository is a curated collection of Python projects I’ve built to stren
 
 
 
-**Why I’m Doing This?**
+### Why I’m Doing This?
 
 While tutorials are valuable for learning syntax, I believe active problem-solving is the fastest way to grow as a programmer. These mini-projects allow me to:
 
