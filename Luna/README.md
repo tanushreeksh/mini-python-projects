@@ -1,6 +1,6 @@
 # **Luna** - Voice-Activated Assistant
 
-**Luna** is a Python voice assistant that responds to commands, plays YouTube music, fetches news, opens websites, and answers general questions using Groq AI.  
+**Luna** is a Python voice assistant that responds to commands, plays YouTube music, fetches news, opens websites and answers general questions using Groq AI.  
 
 
 ### Features
