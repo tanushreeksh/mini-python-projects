@@ -12,22 +12,22 @@
 
 
 ### Workflow:
-1.Say "Luna" as the wake word.
-2.After activation, speak a command, luna listens to your command and responds via speech.
-4.Commands can include:
+- Say "Luna" as the wake word.
+- After activation, speak a command, luna listens to your command and responds via speech.
+- Commands can include:
     Web navigation: "open Google", "open YouTube", "open LinkedIn", "open GitHub".
     Music playback: "play [song name]" – opens the song on YouTube.
     News headlines: "news" – fetches the latest top headlines.
     General questions e.g: tell me about Edinburgh
-5.Repeat steps 1–4 for continuous interaction with Luna.
+- Repeat steps 1–4 for continuous interaction with Luna.
 
 
 ### Setup
 1. Clone the repo and activate a Python virtual environment.
 
 2.Add a .env file with:
-    GROQ_API_KEY=<your-key>
-    NEWS_API_KEY=<your-key>
+- GROQ_API_KEY=<your-key>
+- NEWS_API_KEY=<your-key>
 
 3. Install dependencies:
    ```bash
