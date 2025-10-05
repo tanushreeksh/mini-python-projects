@@ -1,38 +1,36 @@
-````markdown
-# Luna – Voice Assistant
+# **Luna** - Voice-Activated Assistant
 
-Luna is a simple Python-based voice assistant that listens for a wake word and executes basic commands like opening websites.  
-It uses **SpeechRecognition**, **pyttsx3**, and **multiprocessing** for smooth voice interaction.
+**Luna** is a Python voice assistant that responds to commands, plays YouTube music, fetches news, opens websites, and answers general questions using Groq AI.  
 
 
-## Features
-- Wake word detection ("Luna")
-- Voice feedback using text-to-speech
-- Open common websites (Google, YouTube, LinkedIn, Github, Spotify)
-- Runs commands in a separate process to avoid microphone blocking
-- Easy to extend with more commands
+### Features
+- Wake-word activation ("Luna")
+- Plays songs from YouTube
+- Opens popular websites (Google, YouTube, LinkedIn, GitHub)
+- Fetches latest news headlines
+- Answers general questions using Groq AI
 
 
-## Requirements
-- Python 3.8+
-- Microphone access
+### Workflow:
+1.Say "Luna" as the wake word.
+2.After activation, speak a command, luna listens to your command and responds via speech.
+4.Commands can include:
+    Web navigation: "open Google", "open YouTube", "open LinkedIn", "open GitHub".
+    Music playback: "play [song name]" – opens the song on YouTube.
+    News headlines: "news" – fetches the latest top headlines.
+    General questions e.g: tell me about Edinburgh
+5.Repeat steps 1–4 for continuous interaction with Luna.
 
-### Install dependencies:
-```bash
-pip install SpeechRecognition pyttsx3
-```
 
+### Setup
+1. Clone the repo and activate a Python virtual environment.
 
-## Usage
-Run the assistant:
+2.Add a .env file with:
+    GROQ_API_KEY=<your-key>
+    NEWS_API_KEY=<your-key>
 
-```bash
-python luna.py
-```
+3. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Workflow:
-1. Say **"Luna"** as the wake word.
-2. After activation, speak a command (e.g., *"open Google"*).
-3. Luna will respond and take action.
-
-```
